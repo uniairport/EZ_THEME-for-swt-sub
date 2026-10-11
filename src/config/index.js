@@ -30,7 +30,7 @@ export const config  = {
         // 支持字符串形式(单个API地址)或数组形式(多个备选API地址)
         // 多个地址时，会按顺序检测可用性，并使用第一个可用的地址
         staticBaseUrl: [
-            'https://apiapi.ytjcok.com/api/v1'
+            'https://apiapi.xn--chqd956f.com/api/v1'
         ],
       
         // 自动获取模式配置 (urlMode = 'auto'时使用)
@@ -65,10 +65,10 @@ export const config  = {
 
     // ====================  网站基础配置  ====================
     SITE_CONFIG: {
-        siteName: '云图',
-        siteDescription: '云游无界，图揽天下。',
+        siteName: '三万天',
+        siteDescription: '三万天，敬每天！',
         // copyright会自动使用当前年份
-        copyright: `© ${new Date().getFullYear()} Yun Tu. All Rights Reserved.`,
+        copyright: `© ${new Date().getFullYear()} San Wan Tian. All Rights Reserved.`,
 
         // 是否显示标题中的网站Logo (true=显示, false=隐藏)
         showLogo: false,
@@ -100,7 +100,7 @@ export const config  = {
         defaultTheme: 'dark',
 
         // 主题色 (16进制颜色值)
-        primaryColor: '#8CA0BC',
+        primaryColor: '#BE6562',
 
         // 是否启用落地页 (true=启用, false=禁用)
         enableLandingPage: true // 默认启用
@@ -450,7 +450,7 @@ export const config  = {
         // 邀请链接配置
         inviteLinkConfig: {
             // 链接模式：'auto'=自动使用当前站点域名，'custom'=使用自定义域名
-            linkMode: 'custom',
+            linkMode: 'auto',
             // 自定义域名，当linkMode为'custom'时使用
             customDomain: 'https://super.ytjcok.org'
         }
@@ -534,7 +534,7 @@ export const config  = {
     // 客服系统配置
     CUSTOMER_SERVICE_CONFIG: {
         // 是否启用客服系统
-        enabled: true,
+        enabled: false,
 
         // 客服系统类型: 'crisp' 或 'other'
         // 注意：当客服类型为crisp时，系统会自动向Crisp传递用户数据
